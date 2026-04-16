@@ -118,7 +118,7 @@ elif st.session_state.step == 3:
 
 # --- ধাপ ৪: মেমোরিস (গান চলতেই থাকবে) ---
 elif st.session_state.step == 4:
-    st.markdown("<h2 style='text-align:center; color:white;'>📸 Our Sweet Memories</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align:center; color:white;'>📸 Your Sweet Memories</h2>", unsafe_allow_html=True)
     photos = ["pallavi2.jpeg", "pallavi3.jpeg", "pallavi4.jpeg", "pallavi5.jpeg"] 
     cols = st.columns(2)
     for idx, photo in enumerate(photos):
